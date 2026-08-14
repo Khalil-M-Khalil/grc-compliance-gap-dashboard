@@ -1,0 +1,148 @@
+{
+  "assessment_name": "Fictional organization \u2014 NIST CSF 2.0 portfolio demonstration",
+  "fictional_data": true,
+  "method": {
+    "status_weight": 0.7,
+    "evidence_weight": 0.3,
+    "target_score": 1.0
+  },
+  "metrics": {
+    "controls": 24,
+    "maturity_percent": 43.8,
+    "gap_percent": 56.2,
+    "high_risk": 8,
+    "documented_evidence": 16.7
+  },
+  "top_priorities": [
+    {
+      "control_id": "ID.AM-02",
+      "framework": "NIST CSF 2.0",
+      "function": "Identify",
+      "category": "Asset Management",
+      "control_title": "Inventories of software services and systems are maintained",
+      "owner": "IT Operations",
+      "priority": "Critical",
+      "risk_band": "Critical",
+      "risk_score": 100.0,
+      "gap_percent": 100.0,
+      "remediation": "Create a service catalog with owners and lifecycle status"
+    },
+    {
+      "control_id": "PR.PS-04",
+      "framework": "NIST CSF 2.0",
+      "function": "Protect",
+      "category": "Platform Security",
+      "control_title": "Log records are generated and made available for continuous monitoring",
+      "owner": "Cloud Security",
+      "priority": "Critical",
+      "risk_band": "Critical",
+      "risk_score": 100.0,
+      "gap_percent": 100.0,
+      "remediation": "Enable organization-wide logging with retention and access controls"
+    },
+    {
+      "control_id": "ID.SC-01",
+      "framework": "NIST CSF 2.0",
+      "function": "Identify",
+      "category": "Supply Chain",
+      "control_title": "Risk management objectives are established for suppliers and third parties",
+      "owner": "Third-Party Risk",
+      "priority": "High",
+      "risk_band": "Critical",
+      "risk_score": 75.0,
+      "gap_percent": 100.0,
+      "remediation": "Create supplier tiering and security due diligence requirements"
+    },
+    {
+      "control_id": "GV.RR-02",
+      "framework": "NIST CSF 2.0",
+      "function": "Govern",
+      "category": "Risk Roles",
+      "control_title": "Cybersecurity responsibilities and authorities are established",
+      "owner": "Security Governance",
+      "priority": "High",
+      "risk_band": "High",
+      "risk_score": 61.9,
+      "gap_percent": 82.5,
+      "remediation": "Publish a RACI and obtain leadership approval"
+    },
+    {
+      "control_id": "ID.RA-05",
+      "framework": "NIST CSF 2.0",
+      "function": "Identify",
+      "category": "Risk Assessment",
+      "control_title": "Threats vulnerabilities likelihood and impacts are used to understand risk",
+      "owner": "Risk Management",
+      "priority": "High",
+      "risk_band": "High",
+      "risk_score": 61.9,
+      "gap_percent": 82.5,
+      "remediation": "Adopt a documented likelihood and impact methodology"
+    },
+    {
+      "control_id": "DE.CM-03",
+      "framework": "NIST CSF 2.0",
+      "function": "Detect",
+      "category": "Continuous Monitoring",
+      "control_title": "Personnel activity and technology usage are monitored to find anomalies",
+      "owner": "Security Operations",
+      "priority": "High",
+      "risk_band": "High",
+      "risk_score": 61.9,
+      "gap_percent": 82.5,
+      "remediation": "Centralize audit logs and define detection use cases"
+    },
+    {
+      "control_id": "RS.CO-02",
+      "framework": "NIST CSF 2.0",
+      "function": "Respond",
+      "category": "Incident Communication",
+      "control_title": "Internal and external stakeholders are notified of incidents",
+      "owner": "Legal and Compliance",
+      "priority": "High",
+      "risk_band": "High",
+      "risk_score": 61.9,
+      "gap_percent": 82.5,
+      "remediation": "Create notification criteria contacts and approval workflow"
+    },
+    {
+      "control_id": "PR.DS-10",
+      "framework": "NIST CSF 2.0",
+      "function": "Protect",
+      "category": "Data Security",
+      "control_title": "The confidentiality integrity and availability of data-in-use are protected",
+      "owner": "Data Governance",
+      "priority": "High",
+      "risk_band": "High",
+      "risk_score": 61.9,
+      "gap_percent": 82.5,
+      "remediation": "Document sensitive processing safeguards and approved use cases"
+    },
+    {
+      "control_id": "ID.AM-01",
+      "framework": "NIST CSF 2.0",
+      "function": "Identify",
+      "category": "Asset Management",
+      "control_title": "Inventories of hardware managed by the organization are maintained",
+      "owner": "IT Operations",
+      "priority": "Critical",
+      "risk_band": "Moderate",
+      "risk_score": 44.0,
+      "gap_percent": 44.0,
+      "remediation": "Reconcile endpoint inventory with procurement and identity sources"
+    },
+    {
+      "control_id": "PR.AA-01",
+      "framework": "NIST CSF 2.0",
+      "function": "Protect",
+      "category": "Identity Management",
+      "control_title": "Identities and credentials are issued managed verified revoked and audited",
+      "owner": "Identity Team",
+      "priority": "Critical",
+      "risk_band": "Moderate",
+      "risk_score": 44.0,
+      "gap_percent": 44.0,
+      "remediation": "Centralize joiner mover leaver workflows and access reviews"
+    }
+  ]
+}

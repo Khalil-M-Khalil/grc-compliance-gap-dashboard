@@ -1,0 +1,16 @@
+[project]
+name = "grc-compliance-gap-dashboard"
+version = "0.1.0"
+description = "Evidence-aware NIST CSF 2.0 compliance gap analysis dashboard for portfolio demonstration."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.40,<2.0",
+  "pandas>=2.2,<3.0",
+  "plotly>=5.24,<7.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
